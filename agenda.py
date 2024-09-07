@@ -91,53 +91,53 @@ label_fondo.place(x=200, y=100)  # Puedes ajustar la posición del texto según 
 
 
 # Etiquetas y entradas para nombre, apellido y DNI
-label_nombre = tk.Label(root, text="Nombre:", bg="lightblue",font=40)
+label_nombre = tk.Label(root, text="Nombre:", bg="lightblue",font=45)
 label_nombre.pack()
 entry_nombre = tk.Entry(root)
 entry_nombre.pack()
 
-label_apellido = tk.Label(root, text="Apellido:", bg="lightblue",font=40)
+label_apellido = tk.Label(root, text="Apellido:", bg="lightblue",font=45)
 label_apellido.pack()
 entry_apellido = tk.Entry(root)
 entry_apellido.pack()
 
-label_dni = tk.Label(root, text="DNI:", bg="lightblue",font=40)
+label_dni = tk.Label(root, text="DNI:", bg="lightblue",font=45)
 label_dni.pack()
 entry_dni = tk.Entry(root)
 entry_dni.pack()
 
 # Etiquetas y entradas para la fecha y hora
-label_fecha = tk.Label(root, text="Fecha (YYYY-MM-DD):", bg="lightblue",font=40)
+label_fecha = tk.Label(root, text="Fecha (YYYY-MM-DD):", bg="lightblue",font=45)
 label_fecha.pack()
 entry_fecha = tk.Entry(root)
 entry_fecha.pack()
 
-label_hora = tk.Label(root, text="Hora (HH:MM):", bg="lightblue",font=40)
+label_hora = tk.Label(root, text="Hora (HH:MM):", bg="lightblue",font=45)
 label_hora.pack()
 entry_hora = tk.Entry(root)
 entry_hora.pack()
 
 # Botón para agendar un turno
-btn_agendar = tk.Button(root, text="Agendar Turno", command=agendar_turno_interfaz,font=40)
+btn_agendar = tk.Button(root, text="Agendar Turno", command=agendar_turno_interfaz,font=45)
 btn_agendar.pack(pady=10)
 
 # Etiquetas y entradas para el rango de horarios (disponibles)
-label_hora_inicio = tk.Label(root, text="Hora Inicio (HH:MM):", bg="lightblue",font=40)
+label_hora_inicio = tk.Label(root, text="Hora Inicio (HH:MM):", bg="lightblue",font=45)
 label_hora_inicio.pack()
 entry_hora_inicio = tk.Entry(root)
 entry_hora_inicio.pack()
 
-label_hora_fin = tk.Label(root, text="Hora Fin (HH:MM):", bg="lightblue",font=40)
+label_hora_fin = tk.Label(root, text="Hora Fin (HH:MM):", bg="lightblue",font=45)
 label_hora_fin.pack()
 entry_hora_fin = tk.Entry(root)
 entry_hora_fin.pack()
 
 # Botón para mostrar turnos disponibles
-btn_disponibles = tk.Button(root, text="Mostrar Turnos Disponibles", command=mostrar_turnos_disponibles,font=40)
+btn_disponibles = tk.Button(root, text="Mostrar Turnos Disponibles", command=mostrar_turnos_disponibles,font=45)
 btn_disponibles.pack(pady=10)
 
 # Botón para mostrar turnos ocupados
-btn_ocupados = tk.Button(root, text="Mostrar Turnos Ocupados", command=mostrar_turnos_ocupados,font=40)
+btn_ocupados = tk.Button(root, text="Mostrar Turnos Ocupados", command=mostrar_turnos_ocupados,font=45)
 btn_ocupados.pack(pady=10)
 
 # Iniciar el bucle principal de tkinter
